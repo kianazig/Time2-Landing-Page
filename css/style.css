@@ -1,0 +1,71 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Montserrat;
+	height: 100vh;
+}
+
+.phone-container{
+	width: 45vw;
+	height: 100vh;
+	margin: 0;
+	float: left;
+	background-color: #009688;
+}
+
+#phone{
+	height: 70vh;
+	float: right;
+	padding-top: 15vh;
+	padding-right: 5vw;
+}
+
+
+.app-info-wrapper{
+	width: 50vw;
+	height: 100vh;
+	margin: 0;
+	float: left;
+	display: inline-block;
+}
+
+.app-info{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding-left: 5vw;
+	padding-right: 7vw;
+}
+
+#app-name{
+	color: #009688;
+	font-size: 4em;
+}
+
+#app-description{
+	font-size: 1.5em;
+}
+
+#google-play-badge{
+	height: 4em;
+	padding-top: 5vh;
+}
+	
+#developer-link{
+	position: absolute;
+	padding-right: 2em;
+	padding-top: 1.25em;
+	top: 0;
+	right: 0;
+	text-decoration: none;
+	color: #009688;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+#developer-link:hover{
+	font-weight: bolder;
+	text-decoration: underline;
+}
+
